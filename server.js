@@ -9,9 +9,9 @@ var PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // getting my routs 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("../Fast_notes/Develop/routes/api")(app);
+require("../Fast_notes/Develop/routes/dex")(app);
 //where the app is listening for my local host 
 app.listen(PORT, function() {
     console.log("App listening on PORT: " + PORT);
-  });
+});
