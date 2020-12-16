@@ -1,0 +1,23 @@
+{
+  "name": "fast_notes",
+  "version": "1.0.0",
+  "description": "an application that can be used to write, save, and delete notes.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tuppince24/Fast_notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tuppince24/Fast_notes/issues"
+  },
+  "homepage": "https://github.com/Tuppince24/Fast_notes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
